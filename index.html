@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <meta charset="utf-8">
+  <title>Portafolio - Pablo Felice</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="description">
+  <link href="img/iconoST.ico" rel="icon">
+  <link href="img/icono.png" rel="apple-touch-icon">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!-- Header -->
+
+ <header class="header">
+  <a href="#" class="logo">Portfolio</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="#hero" onclick="cerrarMenu()">Home</a></li>
+    <li><a href="#about" onclick="cerrarMenu()">Sobre mí</a></li>
+    <li><a href="#portfolio" onclick="cerrarMenu()">Proyectos</a></li>
+    <li><a href="#skills" onclick="cerrarMenu()">Skills</a></li>
+    <li><a href="#contact" onclick="cerrarMenu()">Contacto</a></li>
+  </ul>
+</header> 
+  <div id="saludo-float">
+    <div id="saludo-text"></div>
+  </div>
+
+  <!-- ------------------------HERO---------------------------------------- -->
+  <main id="main">
+    <section id="hero">
+      <div id="animacion1" style="margin-bottom: 20px;">
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_gljfnvqz.json" background="transparent"
+          speed="2" style="max-width: 290px; max-height: 290px;" loop autoplay></lottie-player>
+      </div>
+      <div class="hero-container" style="margin-top: 20px;">
+        <h1>Hola! soy <span>Pablo_Felice</span><br>Programador;</h1>
+        <a href="#about" class="btn-get-started">Comenzar</a>
+      </div>
+    </section>
+
+
+    <!-- ------------------------------HERO END---------------------------- -->
+
+
+    <!-- -------------------------------ABOUT ME---------------------------------- -->
+<section id="about">
+  <div class="container">
+    <div class="row about-container">
+      <div class="col-lg-6 content order-lg-1 order-2">
+        <h2 class="title">Sobre <span>Mí</span></h2>
+        <p style="margin: 0;">
+          Mi nombre es Pablo Felice, tengo 36 años.<!--<span id="age"></span>
+        <button id="age-button">...</button></p>
+        <p id="message-box" style="display: none; margin: 0;">--> </p>
+        <p>Soy un desarrollador con experiencia en lenguajes como Java, Python, C/C++, C# y PHP. Actualmente me desempeño como Backend Developer en la empresa Telecom Argentina.
+        </p>
+        <p>
+          Trabajo con Frameworks como Spring Boot y Django, con los cuales llevo más de 2 años de práctica. En mi ámbito laboral he tenido oportunidad de participar en una diversa gama de proyectos, incluyendo aquellos que combinan dispositivos de IoT con aplicaciones móviles. Además, tengo una sólida comprensión de redes, protocolos e infraestructuras.
+        </p>
+        <p>
+          Soy competente en el despliegue de aplicaciones en diferentes opciones de alojamiento y manejo de máquinas virtuales. Además, tengo experiencia en el manejo de bases de datos relacionales y no relacionales.
+        </p>
+        <p>
+          Actualmente, estoy cursando mis últimas materias de programación en la Universidad Tecnológica Nacional.
+        </p>
+        <p>
+          Me motiva trabajar en proyectos de tecnología. Me gustan los desafíos y  busco mantenerme al día con las últimas tendencias y herramientas en este campo. Trato de ser un colaborador comprometido y confío en mi capacidad para contribuir de manera efectiva en cualquier proyecto en el que me involucre.
+        </p>
+        <div class="btn">
+          <a href="PabloFelice_CV.pdf" target="_blank" class="btn-link">CV</a>
+        </div>
+        <p id="age-message" style="display: none;"></p>
+      </div>
+      <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+    </div>
+  </div>
+</section>
+
+    <!-- -------------------------------------ABOUT ME END---------------------------------- -->
+
+    <!-- ////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- ----------------------------------------SKILLS---------------------------------------- -->
+    <section id="skills">
+        <div class="section-header">
+          <h3 class="section-title">ski<span>ll</span>s</h3>
+          <p class="section-description">Estoy siempre en busca de nuevas oportunidades de aprendizaje</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a ><img src="img/icons/html5.png"></a></div>
+              <h4 class="title"><a >HTML</a></h4>
+              <p class="description">60%</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a ><img src="img/icons/css3.png"></a></div>
+              <h4 class="title"><a >CSS</a></h4>
+              <p class="description">50%</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a ><img src="img/icons/java.png"></a></div>
+              <h4 class="title"><a >Java</a></h4>
+              <p class="description">80%</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a ><img src="img/icons/python.png"></a></div>
+              <h4 class="title"><a >Python</a></h4>
+              <p class="description">80%</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a ><img src="img/icons/cpp.png"></a></div>
+              <h4 class="title"><a >C/C++</a></h4>
+              <p class="description">75%</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a ><img src="img/icons/csharp.png"></a></div>
+              <h4 class="title"><a >C#</a></h4>
+              <p class="description">60%</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a ><img src="img/icons/php.png"></a></div>
+              <h4 class="title"><a >PHP</a></h4>
+              <p class="description">75%</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="box">
+              <div class="icon"><a ><img src="img/icons/arduino.png"></a></div>
+              <h4 class="title"><a >Arduino</a></h4>
+              <p class="description">80%</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a ><img src="img/icons/django.png"></a></div>
+              <h4 class="title"><a >Django</a></h4>
+              <p class="description">70%</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a ><img src="img/icons/spring-boot.png"></a></div>
+              <h4 class="title"><a >Spring Boot</a></h4>
+              <p class="description">80%</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="box">
+              <div class="icon"><a ><img src="img/icons/mysql.png"></a></div>
+              <h4 class="title"><a >MySQL</a></h4>
+              <p class="description">60%</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="box">
+              <div class="icon"><a ><img src="img/icons/sql-server.png"></a></div>
+              <h4 class="title"><a >SQL Server</a></h4>
+              <p class="description">70%</p>
+            </div>
+    </section>
+
+
+    <!-- -----------------------------------------FIN SKILLS---------------------------- -->
+
+    <section id="quote">
+      <div class="container-quote">
+        <div class="row">
+          <div class="col-lg-12 text-center text-lg">
+            <p class="quote-text">“ Nunca hay una sola respuesta correcta a un problema. Debemos ser lo
+              suficientemente
+              flexibles para adaptarnos a los cambios. ” <!--(Kathryn Janeway - StarTrek/Voyager)--></p>
+          </div>
+        </div>
+    </section>
+
+    <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- ------------------------------------PORTFOLIO----------------------------------------- -->
+    <section id="portfolio">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">P<span>r</span>oyec<span>t</span>os</h3>
+        </div>
+        <div class="row" id="portfolio-wrapper">
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <a href="https://github.com/pablo228751/Sistema_de_Acceso_Python_-_LectorQR" target="_blank">
+              <img src="img/projects/sis_acc.png" alt="Sistema de Acceso Vehicular">
+              <div class="details">
+                <h4>Sistema de Acceso Vehicular</h4>
+                <span>Python - C++</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <a href="https://github.com/pablo228751/Juego_en_Cpp" target="_blank">
+              <img src="img/projects/gran_c.png" alt="Juego C++">
+              <div class="details">
+                <h4>Juego de Consola en C++</h4>
+                <span>C++</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <a href="https://github.com/pablo228751/Alarma_IoT_Android_y_Python" target="_blank">
+              <img src="img/projects/alarma.png" alt="Alarma">
+              <div class="details">
+                <h4>Sistema de Alarma</h4>
+                <span>Python - Android - Arduino</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item ">
+            <a href="https://github.com/pablo228751/App_para_Gestion_de_Prestaciones" target="_blank">
+              <img src="img/projects/app2.png" alt="App Prestaciones">
+              <div class="details">
+                <h4>App para Gestión de Prestaciones</h4>
+                <span>Android - PHP</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <a href="https://github.com/pablo228751/Actualizacion_archivos_desde_RedLocal" target="_blank">
+              <img src="img/projects/actualiza.png" alt="Actualiza">
+              <div class="details">
+                <h4>Sistema de actualización de archivos</h4>
+                <span>Python</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item ">
+            <a href="https://github.com/pablo228751/Sistema_de_Reservas" target="_blank">
+              <img src="img/projects/reservas.png" alt="Reservas">
+              <div class="details">
+                <h4>Sistema de reserva hotelera en C++</h4>
+                <span>C++</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------------------FIN PORTFOLIO --------------------------------- -->
+
+    <!-- ////////////////////////////////////////////////////////////////////// -->
+
+    <!-- --------------------------------CONTACTO------------------------------ -->
+    <section id="contact">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">C<span>o</span>ntacto</h3>
+        </div>
+      </div>
+
+      <div id="map-container">
+        <lottie-player id="lottie-container" src="https://assets9.lottiefiles.com/datafiles/BWweJKuWuiTWcaI/data.json"
+          background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay></lottie-player>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6809.874702428771!2d-64.18924122361129!3d-31.415852119539462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1676423463054!5m2!1ses-419!2sar"
+          width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="container wow fadeInUp mt-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div>
+                <p><a href="mailto:pablo228751@gmail.com" target="_blank"><lottie-player
+                      src="https://assets4.lottiefiles.com/packages/lf20_occgonjh.json" background="transparent"
+                      speed="1" style="width: 40px; height: 40px;" loop
+                      autoplay></lottie-player>pablo228751@gmail.com</a></p>
+              </div>
+              <div>
+                <p><a href="https://api.whatsapp.com/send?phone=543513196054" target="_blank"><lottie-player
+                      src="https://assets2.lottiefiles.com/packages/lf20_psrxm8kd.json" background="transparent"
+                      speed="1" style="width: 60px; height: 60px;" loop autoplay></lottie-player>+543512511757</a>
+                </p>
+
+              </div>
+            </div>
+            <div class="social-links">              
+              <a href="https://github.com/pablo228751" target="_blank" class="google-plus"><i
+                  class="fa fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/pablo-felice-2b603a62/" target="_blank" class="linkedin"><i
+                  class="fa fa-linkedin"></i></a>
+              <a href="https://www.facebook.com/pablo.felice.5" target="_blank" class="facebook"><i
+                  class="fa fa-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+        <!--
+        <div class="contador">
+          <p>Número de visitas: <span id="visitas"></span></p>
+          <p>Tu dirección IP es: <span id="ip"></span></p>
+          <p><span id="ciudad"></span>, <span id="pais"></span></p>
+          <p>Lat: <span id="latitud"></span>, Long: <span id="longitud"></span></p>
+        </div>
+      </div> 
+  		-->
+    </section>
+
+
+
+
+    <!-- -------------------------------FOOTER------------------------------------  -->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Pablo Felice, Portfolio 2024
+        </div>
+      </div>
+
+    </footer>
+  </main>
+  <!-- ----------------------------FOOTER END----------------------------------------- -->
+
+
+  <script src="js/contador.js"></script>
+  <script src="js/fechaN.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script defer src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+</body>
+
+</html>
